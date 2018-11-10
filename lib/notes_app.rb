@@ -1,15 +1,7 @@
 class NotesApp
 
-  def initialize
-    @notes = []
-  end
-
-  def add_note(title, body)
-    @notes << [title, body]
-  end
-
-  def show_titles
-    @notes
+  def show_notes
+     "You have no notes"
   end
 
 end
